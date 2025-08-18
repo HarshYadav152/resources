@@ -70,7 +70,7 @@ scrollToComponent('#target', {
 - Allow scroll duration customization.
 - Fallback support for older browsers.
 
-## 📝License [MIT LICENCE]()
+### 📝License [MIT LICENCE](https://github.com/HarshYadav152/resources/blob/main/LICENCE)
 ## 🙌 Contributing
 
 Feel free to open issues or submit PRs to improve the hook or documentation.
