@@ -1,4 +1,9 @@
-# resources 
+
+# resources ## 🌐 Live Developer Resources
+
+Access my curated developer resources here:  
+[Live Developer Resources](https://HarshYadav152.me/resources/home)
+
 This repository contains personal assets, images, files, and other resources that I use for sharing or displaying on my projects, profile, or elsewhere.
 
 ## 📁 What’s Inside? 
@@ -9,7 +14,7 @@ This repository contains personal assets, images, files, and other resources tha
 ## ℹ️ Purpose
 
 
-This repo is intended for my own use and organization.
+This repo is intended for my own use.
 Feel free to browse if you’re curious, but it’s not maintained as a public resource list or guide. 
 
 ## 📢 License 
