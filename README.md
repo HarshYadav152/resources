@@ -1,5 +1,6 @@
 
-# resources ## 🌐 Live Developer Resources
+# resources 
+## 🌐 Live Developer Resources
 
 Access my curated developer resources here:  
 [Live Developer Resources](https://HarshYadav152.me/resources/home)
