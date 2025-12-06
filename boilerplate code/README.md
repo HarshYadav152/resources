@@ -1,4 +1,6 @@
-# 🚀 Boilerplate Code Collection
+# For this i created a seperate repo which handles all bp code
+
+## 🚀 Boilerplate Code Collection
 
 A comprehensive collection of "Hello, World!" programs across multiple programming languages and paradigms.
 
