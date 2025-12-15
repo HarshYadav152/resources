@@ -1,7 +1,7 @@
 ## 🌐 Live Developer Resources
 
 Access my curated developer resources here:  
-[Live Developer Resources](https://HarshYadav152.me/resources/home)
+[Live Developer Resources](https://HarshYadav152.me/resources)
 
 This repository serves as a comprehensive collection of developer resources, boilerplate code, reusable components, and various programming assets I've created and curated over time.
 
@@ -94,5 +94,5 @@ For questions, feature requests, or issues, please open a GitHub issue or contac
 
 ---
 
-Last updated: August 2025  
+Last updated: December 2025  
 Maintained by [Harsh Yadav](https://github.com/HarshYadav152)
