@@ -1,6 +1,7 @@
 # Third-Party Assets and Attributions
 
 This repository contains third-party assets located mainly under `assets/`.
+1. One of the 3rd party asset i used is os linkedin logo check it [here](./assets/icons/linkedin.png)
 
 Only original code and content authored by @HarshYadav152 is licensed under the root MIT License (see `LICENSE`). Third-party materials retain their own licenses; usage may be subject to additional terms.
 
