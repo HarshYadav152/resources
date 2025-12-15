@@ -1,1 +1,410 @@
-make this page a interactive doc space
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Harsh Yadav (HarshYadav152) — Developer Resources, Portfolio & Projects | 152</title>
+  <meta name="description" content="Harsh Yadav (aka HarshYadav152, 152) — Full-Stack Developer from Aligarh. Explore developer resources, portfolio, projects, and ways to connect.">
+  <meta name="author" content="Harsh Yadav">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="keywords" content="Harsh Yadav, HarshYadav, HarshYadav152, 152, Harsh Yadav Aligarh, HY152, developer resources, portfolio">
+
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://harshyadav152.github.io/resources/home">
+  <link rel="alternate" hreflang="en" href="https://harshyadav152.me/resources/home">
+  <link rel="alternate" hreflang="x-default" href="https://harshyadav152.me/resources/home">
+
+  <!-- Preconnect (minor perf) -->
+  <link rel="preconnect" href="https://cdn.simpleicons.org" crossorigin>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Harsh Yadav (HarshYadav152) — Developer Resources, Portfolio & Projects | 152">
+  <meta property="og:description" content="Connect with Harsh Yadav (aka 152) and explore curated development resources, portfolio, and projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://harshyadav152.me/resources/">
+  <meta property="og:site_name" content="Harsh Yadav — Developer Resources">
+  <meta property="og:locale" content="en_IN">
+  <!-- Using your GitHub avatar as a reliable OG/Twitter image; replace with a branded image if available -->
+  <meta property="og:image" content="https://raw.githubusercontent.com/HarshYadav152/resources/main/images/Developer%20Resources/devres152.png">
+  <meta property="og:image:alt" content="Harsh Yadav (HarshYadav152)">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Harsh Yadav (HarshYadav152) — Developer Resources, Portfolio & Projects | 152">
+  <meta name="twitter:description" content="Explore resources, portfolio and projects by Harsh Yadav from Aligarh (aka 152).">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/HarshYadav152/resources/main/images/Developer%20Resources/devres152.png">
+
+ <!-- Additional Important Meta Tags -->
+    <meta name="author" content="Harsh Yadav">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --accent: #2f81f7;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header[role="banner"] {
+      margin-bottom: 12px;
+    }
+
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+    nav.breadcrumbs a { color: var(--text); }
+    nav.breadcrumbs span.sep { margin: 0 6px; opacity: 0.6; }
+
+    h1 {
+      margin-top: 0.25rem;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .lead {
+      margin-top: 6px;
+      opacity: 0.95;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 28px 0;
+    }
+
+    .social-card {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .social-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+    }
+
+    .icon { width: 32px; height: 32px; margin-right: 16px; }
+
+    .details { flex: 1; }
+
+    .details h3 {
+      margin: 0 0 4px;
+      font-size: 1.1rem;
+    }
+
+    .details p {
+      margin: 0;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    ul { padding-left: 20px; }
+
+    .footer-note {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      opacity: 0.7;
+      text-align: center;
+    }
+
+    /* Social-specific accent colors on hover */
+    .linkedin:hover { border-color: #0A66C2; }
+    .github:hover { border-color: #6e40c9; }
+    .twitter:hover { border-color: #1DA1F2; }
+    .devto:hover { border-color: #ffffff; }
+    .email:hover { border-color: #EA4335; }
+    .portfolio:hover { border-color: #4285F4; }
+
+    /* Content blocks */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 820px) {
+      .two-col { grid-template-columns: 1fr; }
+    }
+
+    .faq details {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin: 10px 0;
+    }
+    .faq summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .social-grid { grid-template-columns: 1fr; }
+      .container { padding: 30px 16px; }
+    }
+  </style>
+
+  <!-- Structured Data: Person, WebPage, FAQPage, BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://harshyadav152.github.io/resources/home/#person",
+        "name": "Harsh Yadav",
+        "alternateName": ["HarshYadav", "HarshYadav152", "Harsh Yadav", "Harsh Yadav Aligarh", "HY152", "152"],
+        "jobTitle": "Developer",
+        "url": "https://harshyadav152.me/resources/home",
+        "image": "https://raw.githubusercontent.com/HarshYadav152/resources/main/images/Developer%20Resources/HarshYadav152.png",
+        "email": "mailto:HarshYadav152@outlook.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/harshyadav152",
+          "https://github.com/HarshYadav152",
+          "https://twitter.com/harshyadav_152",
+          "https://dev.to/harshyadav152",
+          "https://harshyadav152.github.io/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aligarh",
+          "addressRegion": "UP",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://harshyadav152.github.io/resources/home",
+        "url": "https://harshyadav152.github.io/resources/home",
+        "name": "Harsh Yadav (HarshYadav152) — Developer Resources, Portfolio & Projects | 152",
+        "inLanguage": "en",
+        "isPartOf": { "@type": "WebSite", "url": "https://harshyadav152.github.io/resources/home" },
+        "datePublished": "2023-01-01",
+        "dateModified": "2025-09-17",
+        "description": "Harsh Yadav (aka HarshYadav152, 152) — Developer from Aligarh. Explore developer resources, portfolio, projects, and ways to connect."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://harshyadav152.github.io/resources/home",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Harsh Yadav (HarshYadav152)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Harsh Yadav is a Developer from Aligarh, known online as HarshYadav152 (or simply 152), sharing developer resources, projects, and articles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does 152 stand for in HarshYadav152?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "152 is the unique handle Harsh Yadav uses across platforms. You can find him as 152 or HarshYadav152 on GitHub, X (Twitter), LinkedIn, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is Harsh Yadav from?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Harsh Yadav is based in Aligarh, India."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://harshyadav152.github.io/resources/home",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://harshyadav152.github.io/resources/home"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <header role="banner" aria-label="Site header">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="https://harshyadav152.me/resources/">Home</a>
+      </nav>
+      <h1>Harsh Yadav (HarshYadav152) — Developer Resources & Portfolio</h1>
+      <p class="lead">
+            I'm <strong>Harsh Yadav</strong> — a Developer from <strong>Aligarh</strong>, India,
+            known online as <strong>HarshYadav152</strong> or simply <strong>152</strong>. 
+            Search for <span class="keyword-highlight">"152"</span>, <span class="keyword-highlight">"Harsh152"</span>, 
+            or <span class="keyword-highlight">"HarshYadav152"</span> to find my profiles across platforms. 
+            Explore my curated developer resources, recent projects, and ways to connect.
+      </p>
+    </header>
+
+    <h2 id="connect">Connect with Harsh Yadav</h2>
+    <div class="social-grid" aria-label="Social profiles">
+      <a href="https://www.linkedin.com/in/harshyadav152" class="social-card linkedin" aria-label="LinkedIn profile of Harsh Yadav">
+        <img src="https://raw.githubusercontent.com/harshyadav152/resources/main/assets/icons/linkedin.png" alt="LinkedIn icon" class="icon">
+        <div class="details">
+          <h3>LinkedIn</h3>
+          <p>Professional network & updates</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/HarshYadav152" class="social-card github" aria-label="GitHub profile of HarshYadav152">
+        <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub icon" class="icon">
+        <div class="details">
+          <h3>GitHub</h3>
+          <p>Code repositories & projects</p>
+        </div>
+      </a>
+
+      <a href="https://twitter.com/harshyadav_152" class="social-card twitter" aria-label="X (Twitter) profile of 152">
+        <img src="https://cdn.simpleicons.org/x/ffffff" alt="Twitter/X icon" class="icon">
+        <div class="details">
+          <h3>Twitter/X</h3>
+          <p>Tech thoughts & conversations</p>
+        </div>
+      </a>
+
+      <a href="https://dev.to/harshyadav152" class="social-card devto" aria-label="Dev.to profile of Harsh Yadav">
+        <img src="https://cdn.simpleicons.org/devdotto/ffffff" alt="Dev.to icon" class="icon">
+        <div class="details">
+          <h3>Dev.to</h3>
+          <p>Articles & technical content</p>
+        </div>
+      </a>
+
+      <a href="mailto:contact@harshyadav.dev" class="social-card email" aria-label="Email Harsh Yadav">
+        <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email icon" class="icon">
+        <div class="details">
+          <h3>Email</h3>
+          <p>Direct contact</p>
+        </div>
+      </a>
+
+      <a href="https://harshyadav152.github.io/portfolio" class="social-card portfolio" aria-label="Portfolio of Harsh Yadav">
+        <img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="Portfolio icon" class="icon">
+        <div class="details">
+          <h3>Portfolio</h3>
+          <p>Projects & case studies</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="two-col">
+      <section aria-labelledby="about">
+      <h2 id="about">About 152 (Harsh Yadav from Aligarh)</h2>
+        <p>
+          I build scalable, maintainable web applications with a focus on clean code, system
+          architecture, and developer experience. My online identity <strong>152</strong> represents
+          my consistent presence across developer platforms.
+        </p>
+        <p>
+          Whether you search for <span class="keyword-highlight">"152 developer"</span>, 
+          <span class="keyword-highlight">"Harsh152 projects"</span>, or 
+          <span class="keyword-highlight">"HarshYadav152 portfolio"</span>, you'll find my work 
+          and profiles easily accessible.
+        </p>
+      </section>
+
+      <section aria-labelledby="resources">
+        <h2 id="resources">Featured Developer Resources</h2>
+        <ul>
+          <li><strong>System Design</strong> — architecture patterns and scalability concepts</li>
+          <li><strong>Developer Tools</strong> — curated productivity tools I recommend</li>
+          <li><strong>Learning Paths</strong> — structured paths for modern development</li>
+        </ul>
+        <p>
+          I periodically publish notes and articles under the handle <strong>152</strong>. Follow me on
+          <a href="https://dev.to/harshyadav152">Dev.to</a> and <a href="https://twitter.com/harshyadav_152">X (Twitter)</a>
+          for updates.
+        </p>
+      </section>
+    </div>
+
+    <section class="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">FAQ about Harsh Yadav (152)</h2>
+      <details>
+        <summary>Who is Harsh Yadav (HarshYadav152)?</summary>
+        <p>Harsh Yadav is a Full-Stack Developer from Aligarh, known online as <strong>HarshYadav152</strong> or <strong>152</strong>.</p>
+      </details>
+      <details>
+        <summary>What does “152” stand for?</summary>
+        <p>It’s my unique handle across platforms—easy to search and remember. You’ll find me as <strong>152</strong> or <strong>HarshYadav152</strong>.</p>
+      </details>
+      <details>
+        <summary>Where can I see Harsh Yadav’s portfolio?</summary>
+        <p>Visit my <a href="https://harshyadav152.github.io/">portfolio</a> for projects, write-ups, and case studies.</p>
+      </details>
+      <details>
+        <summary>Where is Harsh Yadav from?</summary>
+        <p>I’m based in <strong>Aligarh</strong>, India.</p>
+      </details>
+    </section>
+
+    <h2 id="projects">Recent Projects</h2>
+    <ul>
+<!--       <li><strong>Microservices with TypeScript</strong> — production-ready services with observability and CI/CD</li> -->
+<!--       <li><strong>Real-time Data Pipelines</strong> — event-driven systems and analytics</li> -->
+      <li><strong>React Component Library</strong> — accessible, tested UI components</li>
+    </ul>
+
+    <div class="footer-note">
+      Last updated: September 17, 2025 | <a href="https://github.com/HarshYadav152/resources">View Source</a>
+    </div>
+  </div>
+</body>
+</html>
